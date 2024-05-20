@@ -6,6 +6,8 @@
   export let data;
   export let form;
 
+  let categories: ICategories[]
+  
   $: categories = data.categories ?? [];
 
   let categoryId: string | null = "";

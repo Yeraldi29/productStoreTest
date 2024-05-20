@@ -14,5 +14,10 @@
       class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
       >Create products</a
     >
+    <a
+      href="/create-orders"
+      class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+      >Create orders</a
+    >
   </div>
 </nav>
