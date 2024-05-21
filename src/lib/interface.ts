@@ -17,4 +17,16 @@ interface ICustomers {
   id: number;
   name: string;
   email: string;
+  orders: {
+    id: number;
+  }[];
+}
+
+interface IOrders {
+  date: string;
+}
+interface IOrdersProducts {
+  quantity: number;
+  orders: IOrders;
+  products: IProducts;
 }
